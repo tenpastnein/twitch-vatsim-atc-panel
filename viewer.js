@@ -68,6 +68,7 @@ function render(items) {
   }
 }
 
+
 async function refresh({ force = false } = {}) {
   if (!currentCid) {
     setStatus("Not configured");
